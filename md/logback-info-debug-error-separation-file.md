@@ -1,5 +1,5 @@
-# logback 分离  info,debug,erro 三个日志文件
-- logback 分离  info,debug,erro 三个日志文件
+# logback 按天分离  info,debug,erro 三个日志文件
+- logback 按天分离  info,debug,erro 三个日志文件
 - 按天生成日志文件
 
 ### 日志打印

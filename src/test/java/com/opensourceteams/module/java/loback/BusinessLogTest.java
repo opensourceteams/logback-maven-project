@@ -14,5 +14,12 @@ public class BusinessLogTest {
         businessLog.error("error信息");
         businessLog.debug("debug信息");
         businessLog.info("INFO信息");
+
+
+
+        businessLog.info("INFO信息{},{}","第一个参数","第二个参数");
+
+
+
     }
 }

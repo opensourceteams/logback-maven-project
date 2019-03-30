@@ -13,5 +13,6 @@ public class Run {
         logger.info("INFO信息");
         logger.debug("DEBUG信息");
         logger.error("ERROR信息");
+
     }
 }

@@ -2,6 +2,9 @@
 - logback 按天分离  info,debug,erro 三个日志文件
 - 按天生成日志文件
 
+## 源码
+- https://github.com/opensourceteams/logback-maven-project
+
 ### 日志打印
 
 ```aidl

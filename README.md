@@ -7,3 +7,7 @@
 
 ### logback 按天分离  info,debug,erro 三个日志文件
 - https://github.com/opensourceteams/logback-maven-project/blob/master/md/logback-info-debug-error-separation-file.md
+
+
+### logback 分离业务日志
+- https://github.com/opensourceteams/logback-maven-project/blob/master/md/logback-separation-business-log.md

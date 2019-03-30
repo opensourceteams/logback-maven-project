@@ -9,5 +9,5 @@
 - https://github.com/opensourceteams/logback-maven-project/blob/master/md/logback-info-debug-error-separation-file.md
 
 
-### logback 分离业务日志
+### logback 按业务分离日志文件
 - https://github.com/opensourceteams/logback-maven-project/blob/master/md/logback-separation-business-log.md

@@ -36,6 +36,9 @@ public class BusinessLogTest {
 <configuration>
 
 
+    <!-- 日志最大的历史 30天 -->
+    <property name="maxHistory" value="7"/>
+    <property name="totalSizeCap" value="3GB"/>
 
     <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
         <!-- encoders are assigned the type
@@ -72,8 +75,8 @@ public class BusinessLogTest {
             <fileNamePattern>errorLogFile.%d{yyyy-MM-dd}.log</fileNamePattern>
 
             <!-- keep 30 days' worth of history capped at 3GB total size -->
-            <maxHistory>30</maxHistory>
-            <totalSizeCap>3GB</totalSizeCap>
+            <maxHistory>${maxHistory}</maxHistory>
+            <totalSizeCap>${totalSizeCap}</totalSizeCap>
 
         </rollingPolicy>
 
@@ -112,8 +115,8 @@ public class BusinessLogTest {
             <fileNamePattern>infoFile.%d{yyyy-MM-dd}.log</fileNamePattern>
 
             <!-- keep 30 days' worth of history capped at 3GB total size -->
-            <maxHistory>30</maxHistory>
-            <totalSizeCap>3GB</totalSizeCap>
+            <maxHistory>${maxHistory}</maxHistory>
+            <totalSizeCap>${totalSizeCap}</totalSizeCap>
 
         </rollingPolicy>
 
@@ -148,8 +151,8 @@ public class BusinessLogTest {
             <fileNamePattern>businessFile.%d{yyyy-MM-dd}.log</fileNamePattern>
 
             <!-- keep 30 days' worth of history capped at 3GB total size -->
-            <maxHistory>30</maxHistory>
-            <totalSizeCap>3GB</totalSizeCap>
+            <maxHistory>${maxHistory}</maxHistory>
+            <totalSizeCap>${totalSizeCap}</totalSizeCap>
 
         </rollingPolicy>
 
@@ -182,6 +185,7 @@ public class BusinessLogTest {
         <appender-ref ref="infoFile" />
     </root>
 </configuration>
+
 
 ```
 
